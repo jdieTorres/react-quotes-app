@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.9e6a5d81.css","mappings":"AACA,KACI,YACJ,CAEA,WACI,iBAAkB,CAClB,kBACJ","sources":["CustomHooks.css"],"sourcesContent":["\nbody {\n    padding: 70px;\n}\n\n.reset_btn{\n    margin-left: 375px;\n    margin-right: 410px;\n}\n"],"names":[],"sourceRoot":""}
