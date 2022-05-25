@@ -3,7 +3,14 @@ body {
     padding: 70px;
 }
 
-.reset_btn{
+/* .reset_btn {
     margin-left: 375px;
-    margin-right: 410px;
+    margin-right: 410px
+} */
+
+.content-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
 }

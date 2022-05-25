@@ -32,34 +32,38 @@ export const MultipleCustomHooks = () => {
                             <p> {quote} </p>
                             <footer className="blockquote-footer"> {author} </footer>
 
-                            {
-                                counter > 1 && (
-                                    <button
-                                        className="btn btn-primary mt-3"
-                                        onClick={decrement}
-                                    >
-                                        Previous Quote
-                                    </button>
-                                )
-                            }
+                            <div className='content-grid'>
 
-                            {
-                                counter > 1 && (
-                                    <button
-                                        className="reset_btn btn btn-primary mt-3"
-                                        onClick={ reset }
-                                    >
-                                        Back to Home
-                                    </button>
-                                )
-                            }
+                                {
+                                    counter > 1 && (
+                                        <button
+                                            className="btn btn-primary mt-3"
+                                            onClick={decrement}
+                                        >
+                                            Previous Quote
+                                        </button>
+                                    )
+                                }
 
-                            <button
-                                className="btn btn-primary mt-3"
-                                onClick={increment}
-                            >
-                                Next Quote
-                            </button>
+                                {
+                                    counter > 1 && (
+                                        <button
+                                            className="reset_btn btn btn-primary mt-3"
+                                            onClick={ reset }
+                                        >
+                                            Back to Home
+                                        </button>
+                                    )
+                                }
+
+                                <button
+                                    className="btn btn-primary mt-3"
+                                    onClick={increment}
+                                >
+                                    Next Quote
+                                </button>
+
+                            </div>
 
                         </blockquote>
 
